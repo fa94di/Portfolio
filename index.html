@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/port.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="https://kit.fontawesome.com/e9c1525f91.js" crossorigin="anonymous"></script>
+    <title>Fadi Ashji</title>
+    <link rel="icon" type="image/x-icon" href="Images/icon-website.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="loader-wrapper">
+        <!-- <div id="loader"></div> -->
+        <div class="anim">
+            <div class="escape div">welcome</div> 
+            <div class="div"> 
+                <span class="into">to my world</span>
+            </div>
+        </div>
+    </div>
+    <!-- Start Header -->
+    <section id="nav">
+        <div class="header">
+            <div class="container">
+                <img src="Images/Frame 5.png" alt="">
+                <button class="fa-solid fa-bars toggle-menu" onclick="myFunction()"></button>
+                <nav class="navbar">
+                    <div class="nav-container links nav" id="div">
+                      <a class="how link active" href="#nav">home</a>
+                      <a class="do link" href="#my-service">my services</a>
+                      <a class="project link" href="#my-project">my projects</a>
+                      <a class="contact link" href="#contact-me">contact me</a>
+                    </div>
+                </nav>
+                <div class="icons">
+                    <a href="https://www.facebook.com/fadi.ashji" target="_blank"><i class="fa-brands fa-facebook-f fb"></i></a>
+                    <a href="https://www.linkedin.com/in/fadi-ashji-534b44204" target="_blank"><i class="fa-brands fa-linkedin-in lin"></i></a>
+                    <a href="https://www.behance.net/fadiashji" target="_blank"><i class="fa-brands fa-behance beh"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Header -->
+    <!-- Start How iam -->
+    <section id="how">
+        <div class="how-iam" id="home">
+            <div class="container">
+                <div class="background">
+                    <div class="blur-1"></div>
+                        <video class="background-vid" playsinline loop autoplay muted>
+                            <source src="Images/black_-_13495 (720p).mp4" type="video/mp4">
+                        </video>
+                    <div class="blur-2"></div>
+                </div>
+                <div class="hello-text">
+                    <h6 class="welcome">Welcome to my world</h6>
+                    <h1 class="hi-text">hi, i'm <span class="name">fadi ashji</span> a UI/UX designer &amp web designer </h1>
+                    <p class="infos">I have been working since 2022 as UI/UX designer in Elkood company and freelancer in Upwork</p>
+                    <a href="Images/Fadi's Resume.pdf" download="" class="cv-container">download my cv<i class="fa-solid fa-arrow-right download-arrow"></i></a>
+                    <img src="Images/logo-image.png" class="logo-image" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start What I Do -->
+    <section id="do">
+        <div class="i-do" id="my-service">
+            <div class="container reveal">
+                <div class="titles">
+                    <h1 class="big-title">my IT <span class="services">services</span></h1>
+                    <h2 class="small-title">I mainly specialize in these 3 things</h2>
+                </div>
+            </div>
+        </div>
+        <div class="i-do-cards">
+            <div class="container reveal">
+                <div class="tab">
+                    <button class="tablinks active" onclick="openCity(event, 'ui-ux')"><img src="Images/ui logo.png" class="tab-icon">UI / UX desinger</button>
+                    <button class="tablinks" onclick="openCity(event, 'web-designer')"><img src="Images/code logo.png" class="tab-icon">web desinger</button>
+                    <button class="tablinks" onclick="openCity(event, 'webflow')"><img src="Images/webflow logo.png" class="tab-icon">webflow</button>
+                </div>
+                <div id="ui-ux" class="tabcontent">
+                    <div class="ui-ux-container">
+                        <div class="ux-row-1">
+                            <div class="card-1">
+                                <img src="Images/research.png" alt="" class="research-icon"/>
+                                <h3 class="title-card">1. user research</h3>
+                                <p class="para-card">They conduct user research to understand the needs and preference of the target audience, including their goals, behaviors, and pain points.</p>
+                            </div>
+                            <div class="card-2">
+                                <img src="Images/wireframe.png" alt="" class="wireframe-icon"/>
+                                <h3 class="title-card">2. wireframing and prototyping</h3>
+                                <p class="para-card">create wireframes and prototypes to visually represent the structure and functionality of a product. This helps in early testing and iteration of design concepts.</p>
+                            </div>
+                        </div>
+                        <div class="ux-row-2">
+                            <div class="card-3">
+                                <img src="Images/usability.png" alt="" class="usability-icon"/>
+                                <h3 class="title-card">3. usability testing</h3>
+                                <p class="para-card">the designers observe how users interact with a product to identify areas for improvement and ensure a positive user experience.</p>
+                            </div>
+                            <div class="card-4">
+                                <img src="Images/Frame 1000007984.png" alt="" class="visual-icon"/>
+                                <h3 class="title-card">4. visual design</h3>
+                                <p class="para-card">ux designer should have a good understanding of visual design principles and be able to create visually appealing designs.</p>
+                            </div>
+                        </div>
+                        <div class="ux-row-3">
+                            <div class="card-5">
+                                <img src="Images/Frame 1000007985.png" alt="" class="problem-icon"/>
+                                <h3 class="title-card">5. problem solving</h3>
+                                <p class="para-card">the designer should be able identidy problems that can be caused by users and come up with creative solutions to solve them.</p>
+                            </div>
+                            <div class="card-6">
+                                <img src="Images/Frame 1000007986.png" alt="" class="Empathy-icon"/>
+                                <h3 class="title-card">6. Empathy</h3>
+                                <p class="para-card">Understanding and empathizing with users is crucial for creating designs that meet their needs and to see the product from the user's perspective and advocate for user interests.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="web-designer" class="tabcontent">
+                    <div class="web-designer-container">
+                        <div class="web-row-1">
+                            <div class="card-1">
+                                <img src="Images/HTML.png" alt="" class="html-icon"/>
+                                <h3 class="title-card">1. HTML</h3>
+                                <p class="para-card">HTML (Hypertext Markup Language) is a markup language used to structure content on web pages123. HTML files contain text that is structured and formatted by HTML elements.</p>
+                            </div>
+                            <div class="card-2">
+                                <img src="Images/Css.png" alt="" class="css-icon"/>
+                                <h3 class="title-card">2. CSS</h3>
+                                <p class="para-card">CSS (Cascading Style Sheets) is a stylesheet language used to define the appearance of web pages123. CSS files contain rules that determine how HTML elements on the page should be displayed.</p>
+                            </div>
+                        </div>
+                        <div class="web-row-2">
+                            <div class="card-3">
+                                <img src="Images/JS.png" alt="" class="js-icon"/>
+                                <h3 class="title-card">3. javascript</h3>
+                                <p class="para-card">JavaScript is a programming language that allows you to implement complex features on web page, and used to create dynamically updating content, control multimedia, animate images.</p>
+                            </div>
+                            <div class="card-4">
+                                <img src="Images/bootstrap.png" alt="" class="bootstrap-icon"/>
+                                <h3 class="title-card">4. bootstrap</h3>
+                                <p class="para-card">Bootstrap is a popular CSS framework used for developing responsive webpages, It provides a set of pre-built design templates, components, and utilities that can be used to create web pages quickly and efficiently.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="webflow" class="tabcontent">
+                    <div class="webflow-container">
+                        <div class="webflow-row-1">
+                            <div class="card-1">
+                                <img src="Images/design-web.png" alt="" class="design-web-icon"/>
+                                <h3 class="title-card">1. design websites visually</h3>
+                                <p class="para-card">Webflow enables users to design web pages by dragging and dropping.</p>
+                            </div>
+                            <div class="card-2">
+                                <img src="Images/responsive.png" alt="" class="responsive-icon"/>
+                                <h3 class="title-card">2. responsive design</h3>
+                                <p class="para-card">Developers can create responsive designs that adapt to different screen sizes and devices.</p>
+                            </div>
+                        </div>
+                        <div class="webflow-row-2">
+                            <div class="card-3">
+                                <img src="Images/animation.png" alt="" class="animation-icon"/>
+                                <h3 class="title-card">3. animations</h3>
+                                <p class="para-card">can add interactions and animations to elements on the page, enhancing the user experience.</p>
+                            </div>
+                            <div class="card-4">
+                                <img src="Images/code.png" alt="" class="code-icon"/>
+                                <h3 class="title-card">4. webflow interactions</h3>
+                                <p class="para-card">Webflow is primarily a no-code/low-code platform but developers can add custom HTML, CSS, and JavaScript to the head or body of the page.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End What I Do -->
+    <!-- Start My Projects -->
+    <section id="project">
+        <img src="Images/background.svg" alt="">
+        <div class="my-projects" id="my-project">
+            <div class="container reveal">
+                <div class="titles">
+                    <h1 class="big-title">my <span class="project">projects</span></h1>
+                    <h2 class="small-title">What i have done in these two years</h2>
+                </div>
+            </div>
+        </div>
+        <div class="work-card-1 reveal">   
+            <div class="work-text-1">
+                <img src="Images//Frame 1000007451.png" class="mawjuud-logo" alt="">
+                <div class="title-website">
+                    <h4 class="kategory-mawjuud">UI/UX Designer</h4>
+                    <h1 class="name-website-mawjuud">mawjuud property website in emirates</h1>
+                    <p class="para-website-mawjuud">This app can solve all the real estate owners and their customers problems in a blink of an eye</p>
+                    <a href="Images/Mawjuud pdf-مضغوط.pdf" class="case-study-mawjuud" target=”_blank”>view case study</a>
+                </div>
+            </div>
+            <div class="project-vid">
+                <video src="Images/Showreel_-Moving-screens-with-parallax-[remix].mp4" autoplay class="vid-mawjuud"></video>
+            </div>
+        </div>
+        <div class="work-card-2 reveal">   
+            <div class="work-text-2">
+                <img src="Images/namuuthaj-logo.png" class="namoothaj-logo" alt="">
+                <div class="title-website">
+                    <h4 class="kategory-namoothaj">UI/UX Designer</h4>
+                    <h1 class="name-website-namoothaj">namoothaj platforms web app</h1>
+                    <p class="para-website-namoothaj">Namoothaj is an online platform created in 2020 to aid individuals in discovering useful templates. Our platform offers professionally designed PowerPoint slide templates and forms.</p>
+                    <a href="Images/Namoothaj pdf-مضغوط.pdf" class="case-study-mawjuud" target=”_blank”>view case study</a>
+                </div>
+            </div>
+            <div class="project-vid">
+                <video src="Images/Animated-web-screens-[remix].mp4" autoplay class="vid-namoothaj"></video>
+            </div>
+        </div>
+        <div class="work-card-3 reveal">   
+            <div class="work-text-3">
+                <img src="Images/planet-logo.png" class="planet-logo" alt="">
+                <div class="title-website">
+                    <h4 class="kategory-planet">UI/UX Designer</h4>
+                    <h1 class="name-website-planet">T-Planet create and sell custom products online</h1>
+                    <p class="para-website-planet">T-Planet will handle all of the printing and shipping, so users can focus on marketing and selling their product.</p>
+                    <a href="Images/T planet pdf-مضغوط.pdf" class="case-study-mawjuud" target=”_blank”>view case study</a>
+                </div>
+            </div>
+            <div class="project-vid">
+                <video src="Images/Animated-iPad-mockup-[remix].mp4" autoplay class="vid-planet"></video>
+            </div>
+        </div>
+    </section>
+    <!-- End My Projects -->
+    <!-- Start Contact Me -->
+    <section id="contact">
+        <div class="contact-me" id="contact-me">
+            <div class="container talk">
+                <div class="lets-talk-text">
+                    <h1 class="talk-title">Have an idea? i can help you.</h1>
+                    <div class="lets-box">
+                    <a class="lets-title" href="#popup1">Lets talk to me</a>
+                    <i class="fa-solid fa-arrow-right lets-arrow"></i>
+                </div>
+                    <div class="lets-icons">
+                        <a href="https://www.facebook.com/fadi.ashji" target="_blank"><i class="fa-brands fa-facebook-f fb"></i></a>
+                        <a href="https://www.linkedin.com/in/fadi-ashji-534b44204" target="_blank"><i class="fa-brands fa-linkedin-in lin"></i></a>
+                        <a href="https://www.behance.net/fadiashji" target="_blank"><i class="fa-brands fa-behance beh"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <a href="#contact" class="back-container"><i class="fa-solid fa-arrow-right fa-rotate-180 back-arrow"></i>go back</a>
+                    <div class="form-container">
+                        <form class="contact-form">
+                            <div class="box">
+                                <div class="input-group">
+                                    <input type="text" class="input-lets myInput" id="fullName" placeholder="Full Name" oninput="updateButtonState()">
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="input-group">
+                                    <input type="email" class="input-lets myInput" id="emailAddress" placeholder="Email Address" oninput="updateButtonState()">
+                                    <p class="error" id="emailError"></p>
+                                </div>
+                            </div>
+                            <div class="box">
+                                <div class="input-group">
+                                    <textarea type="textarea" class="input-lets myInput" id="message" placeholder="Enter Your Message" oninput="updateButtonState()"></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" id="submitBtn" class="btn-send myButton" disabled onclick="submitForm()">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Me -->
+    <!-- Button Disable -->
+    <script src="script.js"></script>
+    <!-- API Email Send -->
+    <script>
+            const contactForm = document.querySelector(".contact-form")
+            const fullNameInput = document.querySelector("#fullName")
+            const emailAddressInput = document.querySelector("#emailAddress")
+            const messageInput = document.querySelector("#message")
+
+            contactForm.addEventListener("submit", (e) => {
+                e.preventDefault()
+                const emailMessage = getEmailMessage({
+                    fullName: fullNameInput.value,
+                    emailAddress: emailAddressInput.value,
+                    message: messageInput.value,
+        })
+
+        fetch("https://sendmail-api-docs.vercel.app/api/send", {
+            method: "POST",
+            body: JSON.stringify({
+                to: "ashjif127@gmail.com",
+                subject: "Message From Contact Form",
+                message: emailMessage,
+            })
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+            fullNameInput.value = ""
+            emailAddressInput.value = ""
+            messageInput.value = ""
+            })
+        })
+        const getEmailMessage = ({ fullName, emailAddress, message } = {}) => {
+            return `
+                
+                <div style="background-color: #101010; color: #fbfbfb; padding: 12px">
+                    <p style="margin: 0;">fullName: ${fullName}</p>
+                    <p style="margin: 12px 0;">emailAddress: ${emailAddress}</p>
+                    <p style="margin: 0;">message: ${message}</p>
+                </div>
+            `
+        }
+    </script>
+    <script>
+        window.addEventListener("scroll", reveal);
+        
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for(var i = 0; i < reveals.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint) {
+                    reveals[i].classList.add("active");
+                }
+                else{
+                    reveals[i].classList.remove("active");
+
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        window.addEventListener("scroll", talk);
+
+        function talk() {
+            var talk = document.querySelectorAll(".talk");
+
+            for(var i = 0; i < talk.length; i++) {
+                var windowheight = window.innerHeight;
+                var revealtop = talk[i].getBoundingClientRect().top;
+                var revealpoint = 150;
+
+                if(revealtop < windowheight - revealpoint) {
+                    talk[i].classList.add("active");
+                }
+                else{
+                    talk[i].classList.remove("active");
+
+                }
+            }
+        }
+    </script>
+    <script>
+        const sections = document.querySelectorAll("section");
+        const navLi = document.querySelectorAll(".navbar .nav-container a");
+        window.addEventListener("scroll", () => {
+        let current = "";
+        sections.forEach((section) => {
+            const sectionTop = section.offsetTop;
+            const sectionHeight = section.clientHeight;
+            if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute("id");
+            }
+        });
+
+        navLi.forEach((li) => {
+            li.classList.remove("active");
+            if (li.classList.contains(current)) {
+            li.classList.add("active");
+            }
+        });
+        });
+    </script>
+    <script>
+        var body = document.querySelector('body');
+        var fun = document.addEventListener("DOMContentLoaded", function() {
+
+        setTimeout(function(){
+            body.classList.add('loaded');
+        }, 3800);
+        });
+    </script>
+</body>
+</html>
